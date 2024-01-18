@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="id.ac.sttpyk.myinventory.MenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_alatFragment"
+            app:destination="@id/alatFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_benihFragment"
+            app:destination="@id/benihFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_inventoryFragment"
+            app:destination="@id/inventoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/alatFragment"
+        android:name="AlatFragment"
+        android:label="fragment_alat"
+        tools:layout="@layout/fragment_alat" >
+        <action
+            android:id="@+id/action_alatFragment_to_tambahDataFragment3"
+            app:destination="@id/tambahDataFragment3" />
+    </fragment>
+    <fragment
+        android:id="@+id/benihFragment"
+        android:name="BenihFragment"
+        android:label="fragment_benih"
+        tools:layout="@layout/fragment_benih" >
+        <action
+            android:id="@+id/action_benihFragment_to_tambahDataFragment2"
+            app:destination="@id/tambahDataFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahDataFragment"
+        android:name="id.ac.sttpyk.myinventory.TambahDataFragment"
+        android:label="fragment_tambah_data"
+        tools:layout="@layout/fragment_tambah_data" >
+        <action
+            android:id="@+id/action_tambahDataFragment_to_inventoryFragment"
+            app:destination="@id/inventoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inventoryFragment"
+        android:name="InventoryFragment"
+        android:label="InventoryFragment"
+        tools:layout="@layout/fragment_inventory">
+        <action
+            android:id="@+id/action_inventoryFragment_to_tambahDataFragment"
+            app:destination="@id/tambahDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahDataFragment2"
+        android:name="id.ac.sttpyk.myinventory.TambahDataFragment2"
+        android:label="fragment_tambah_data2"
+        tools:layout="@layout/fragment_tambah_data2" >
+        <action
+            android:id="@+id/action_tambahDataFragment2_to_benihFragment"
+            app:destination="@id/benihFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tambahDataFragment3"
+        android:name="id.ac.sttpyk.myinventory.TambahDataFragment3"
+        android:label="fragment_tambah_data3"
+        tools:layout="@layout/fragment_tambah_data3" >
+        <action
+            android:id="@+id/action_tambahDataFragment3_to_alatFragment"
+            app:destination="@id/alatFragment" />
+    </fragment>
+</navigation>

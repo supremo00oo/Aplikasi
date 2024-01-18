@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment"
+    android:background="@drawable/h">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/pupuk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_shape"
+            android:text="Data pupuk"
+            android:textColor="@color/white2"
+            android:fontFamily="sans-serif-condensed-medium"
+
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data benih"
+            android:id="@+id/benih"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/white2"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data peralatan pertanian"
+            android:id="@+id/alat"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/white2"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LOGOUT"
+            android:id="@+id/logout"
+            android:background="@drawable/button_shape"
+            android:textColor="@color/white2"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</RelativeLayout>
