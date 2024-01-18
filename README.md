@@ -1,10 +1,6 @@
 # APLIKASI INVENTORY
 Aplikasi Inventory adalah solusi perangkat lunak yang dirancang untuk mengelola dan mengawasi semua aspek dari stok atau persediaan. Dengan menggunakan teknologi canggih, aplikasi ini membantu untuk meningkatkan efisiensi, akurasi, dan transparansi dalam pengelolaan persediaan.
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
 ## Features APLIKASI INVENTORY
 
 - Add Data Stok
